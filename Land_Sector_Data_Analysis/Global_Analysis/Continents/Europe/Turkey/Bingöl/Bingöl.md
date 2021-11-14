@@ -1,0 +1,1 @@
+Add Bingöl's Land Sector Data Analysis

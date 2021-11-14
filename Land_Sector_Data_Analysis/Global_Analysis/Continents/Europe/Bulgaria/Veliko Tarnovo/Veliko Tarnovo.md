@@ -1,0 +1,1 @@
+Add Veliko Tarnovo's Land Sector Data Analysis

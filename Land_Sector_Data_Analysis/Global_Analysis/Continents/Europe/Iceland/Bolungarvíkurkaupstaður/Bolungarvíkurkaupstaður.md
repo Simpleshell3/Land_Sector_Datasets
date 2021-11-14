@@ -1,0 +1,1 @@
+Add Bolungarvíkurkaupstaður's Land Sector Data Analysis

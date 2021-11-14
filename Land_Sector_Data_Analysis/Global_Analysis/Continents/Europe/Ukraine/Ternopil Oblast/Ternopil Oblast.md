@@ -1,0 +1,1 @@
+Add Ternopil Oblast's Land Sector Data Analysis

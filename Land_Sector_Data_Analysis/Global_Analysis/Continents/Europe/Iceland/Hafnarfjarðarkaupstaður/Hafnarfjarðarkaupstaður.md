@@ -1,0 +1,1 @@
+Add Hafnarfjarðarkaupstaður's Land Sector Data Analysis

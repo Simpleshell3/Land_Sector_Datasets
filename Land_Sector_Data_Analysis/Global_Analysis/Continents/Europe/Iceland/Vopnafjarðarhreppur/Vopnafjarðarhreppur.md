@@ -1,0 +1,1 @@
+Add Vopnafjarðarhreppur's Land Sector Data Analysis

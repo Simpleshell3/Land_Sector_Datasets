@@ -1,0 +1,1 @@
+Add Skeiða- og Gnúpverjahreppur's Land Sector Data Analysis

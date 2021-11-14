@@ -1,0 +1,1 @@
+Add Łódzkie's Land Sector Data Analysis

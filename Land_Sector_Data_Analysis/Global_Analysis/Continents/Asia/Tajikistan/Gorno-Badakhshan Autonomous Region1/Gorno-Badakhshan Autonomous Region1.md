@@ -1,0 +1,1 @@
+Add Gorno-Badakhshan Autonomous Region1's Land Sector Data Analysis

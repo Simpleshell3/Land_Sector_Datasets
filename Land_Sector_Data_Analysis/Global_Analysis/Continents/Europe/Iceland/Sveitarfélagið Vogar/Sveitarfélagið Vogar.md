@@ -1,0 +1,1 @@
+Add Sveitarfélagið Vogar's Land Sector Data Analysis

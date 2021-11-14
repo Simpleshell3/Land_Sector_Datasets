@@ -1,0 +1,1 @@
+Add Lower Silesian Voivodeship's Land Sector Data Analysis

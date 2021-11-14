@@ -1,0 +1,1 @@
+Add Svalbarðshreppur's Land Sector Data Analysis

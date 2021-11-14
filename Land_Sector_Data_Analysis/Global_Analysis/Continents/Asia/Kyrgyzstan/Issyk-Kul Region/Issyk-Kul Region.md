@@ -1,0 +1,1 @@
+Add Issyk-Kul Region's Land Sector Data Analysis

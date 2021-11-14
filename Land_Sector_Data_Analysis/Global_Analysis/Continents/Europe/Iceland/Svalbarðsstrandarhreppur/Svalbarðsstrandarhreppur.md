@@ -1,0 +1,1 @@
+Add Svalbarðsstrandarhreppur's Land Sector Data Analysis

@@ -1,0 +1,1 @@
+Add North Gyeongsang Province's Land Sector Data Analysis

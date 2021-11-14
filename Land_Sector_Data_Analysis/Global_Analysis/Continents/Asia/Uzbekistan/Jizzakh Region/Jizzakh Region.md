@@ -1,0 +1,1 @@
+Add Jizzakh Region's Land Sector Data Analysis

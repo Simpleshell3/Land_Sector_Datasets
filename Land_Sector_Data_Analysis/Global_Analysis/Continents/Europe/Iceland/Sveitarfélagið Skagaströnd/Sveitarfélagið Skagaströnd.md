@@ -1,0 +1,1 @@
+Add Sveitarfélagið Skagaströnd's Land Sector Data Analysis

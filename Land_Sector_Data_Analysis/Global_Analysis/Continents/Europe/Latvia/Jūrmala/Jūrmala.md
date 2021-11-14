@@ -1,0 +1,1 @@
+Add Jūrmala's Land Sector Data Analysis

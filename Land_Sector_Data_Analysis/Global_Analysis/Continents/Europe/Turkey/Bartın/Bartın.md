@@ -1,0 +1,1 @@
+Add Bartın's Land Sector Data Analysis

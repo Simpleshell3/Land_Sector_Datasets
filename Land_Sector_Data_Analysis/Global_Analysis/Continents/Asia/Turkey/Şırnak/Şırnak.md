@@ -1,0 +1,1 @@
+Add Şırnak's Land Sector Data Analysis
