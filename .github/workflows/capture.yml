@@ -1,0 +1,32 @@
+name: Capture and Preprocess
+on:
+  schedule:
+    - cron: '1 * * * *'
+  workflow_dispatch:
+  
+  
+jobs:
+  update_data:
+    name: Update Data from source
+    runs-on: ubuntu-latest
+    steps:
+         - name: Checkout
+           uses: actions/checkout@v2
+         - name: Setup Python
+           uses: actions/setup-python@v2
+           with:
+             python-version: '3.7'
+             cache: 'pip'
+         - name: Install Dependencies
+           run: pip install -r requirements.txt
+         - name: Run Script and Update Plot
+           run: |
+            jupyter nbconvert --to script IPCC_ClimateZoneMap.ipynb
+            python IPCC_ClimateZoneMap.py
+         - name: Commit and Push Changes
+           run: |
+            git config --local user.email "actions@github.com"
+            git config --local user.name "GitHub Actions"
+            git add IPCC_ClimateZoneMap.tif
+            git commit -m "Updated dataset on `date` with GitHub Actions"
+            git push origin devtest1
