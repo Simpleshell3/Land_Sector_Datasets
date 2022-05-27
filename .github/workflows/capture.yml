@@ -1,4 +1,4 @@
-name: Capture and Preprocess data
+name: Capture
 on:
   schedule:
     - cron: '1 * * * *'
