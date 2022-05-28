@@ -27,7 +27,7 @@ jobs:
             pip install wheel
             pip install numpy
             sudo pip3 install GDAL==$(gdal-config --version | awk -F'[.]' '{print $1"."$2}') --global-option=build_ext --global-option="-I/usr/include/gdal"
-            pip install -r requirements.txt
+            pip install nbconvert
          - name: Run Script
            run: |
             jupyter nbconvert --to script IPCC_ClimateZoneMap.ipynb
