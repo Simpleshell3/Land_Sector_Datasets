@@ -45,7 +45,6 @@ coverage==3.7.1
 coveralls==0.5
 crcmod==1.7
 cufflinks==0.17.3
-cvxpy==1.0.31
 cycler==0.11.0
 cymem==2.0.6
 Cython==0.29.30
