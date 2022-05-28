@@ -30,7 +30,7 @@ jobs:
             pip install nbconvert
          - name: Run Script
            run: |
-            cd Land_Sector_Datasets/Data/Climate/
+            cd Data/Climate/
             jupyter nbconvert --to script IPCC_ClimateZoneMap.ipynb
             python IPCC_ClimateZoneMap.py
          - name: Commit and Push Changes
