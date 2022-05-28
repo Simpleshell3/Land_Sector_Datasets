@@ -42,7 +42,7 @@ jobs:
             git config --local user.name "GitHub Actions"
             dvc add Data/Climate/IPCC_ClimateZoneMap.tif
             git add Data/Climate/IPCC_ClimateZoneMap.tif.dvc .gitignore
-            git rm Data/Climate/Climate.zip
+            git rm Data/Climate/Climate_Zone.zip
             git commit -m "Updated dataset on `date` with GitHub Actions"
             git push origin devtest1
             dvc remote modify myremote gdrive_use_service_account true
