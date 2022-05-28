@@ -39,6 +39,6 @@ jobs:
            run: |
             git config --local user.email "actions@github.com"
             git config --local user.name "GitHub Actions"
-            git add IPCC_ClimateZoneMap.tif
+            git add Data/Climate/IPCC_ClimateZoneMap.tif
             git commit -m "Updated dataset on `date` with GitHub Actions"
             git push origin devtest1
