@@ -28,6 +28,7 @@ jobs:
             pip install numpy
             sudo pip3 install GDAL==$(gdal-config --version | awk -F'[.]' '{print $1"."$2}') --global-option=build_ext --global-option="-I/usr/include/gdal"
             pip install nbconvert
+            pip install ipython
          - name: Run Script
            run: |
             cd Data/Climate/
