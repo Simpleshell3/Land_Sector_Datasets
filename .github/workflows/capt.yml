@@ -26,7 +26,7 @@ jobs:
             export C_INCLUDE_PATH=/usr/include/gdal
             pip install wheel
             pip install numpy
-            pip install GDAL==2.2.2
+            sudo pip3 install GDAL==$(gdal-config --version | awk -F'[.]' '{print $1"."$2}') --global-option=build_ext --global-option="-I/usr/include/gdal"
             pip install -r requirements.txt
          - name: Run Script
            run: |
