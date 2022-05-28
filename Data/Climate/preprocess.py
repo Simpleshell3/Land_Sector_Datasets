@@ -5,7 +5,7 @@ import zipfile
 
 # implement pip as a subprocess:
 subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
-'<gdal-utils>'])
+'gdal-utils'])
 
 wget.download('https://esdac.jrc.ec.europa.eu/projects/RenewableEnergy/Data/Climate_Zone.zip')
 
