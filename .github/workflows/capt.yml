@@ -45,9 +45,9 @@ jobs:
             git add Data/Climate/CLIMATE_ZONE.RDC .gitignore
             git add Data/Climate/CLIMATE_ZONE.rst .gitignore
             git add Data/Climate/Climate_Zone.zip .gitignore
-	    git add Data/Climate/IPCC_ClimateZoneMap.tif.aux.xml .gitignor
-	    git commit -m "Updated dataset on `date` with GitHub Actions"
-	    git push origin devtest1
+            git add Data/Climate/IPCC_ClimateZoneMap.tif.aux.xml .gitignor
+            git commit -m "Updated dataset on `date` with GitHub Actions"
+            git push origin devtest1
             dvc remote modify myremote gdrive_use_service_account true
             dvc remote modify myremote --local gdrive_service_account_json_file_path .github/dvc-test-351612-91c2f505c08a.json
             dvc push
