@@ -1,5 +1,9 @@
-name: Capture
-on: workflow_dispatch 
+name: Capture and Preprocess data
+on:
+  schedule:
+    - cron: '1 * * * *'
+  workflow_dispatch:
+  
   
 jobs:
   update_data:
