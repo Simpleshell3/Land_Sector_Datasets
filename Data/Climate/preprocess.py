@@ -2,7 +2,6 @@ import sys
 import subprocess
 import wget
 import zipfile
-import gdal
 
 # implement pip as a subprocess:
 subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
