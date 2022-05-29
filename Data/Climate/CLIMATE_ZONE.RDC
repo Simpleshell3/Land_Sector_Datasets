@@ -1,0 +1,38 @@
+file format : IDRISI Raster A.1
+file title  : 
+data type   : byte
+file type   : binary
+columns     : 4320
+rows        : 2160
+ref. system : _geo_84
+ref. units  : deg
+unit dist.  : 1.0000000
+min. X      : -180.0000000
+max. X      : 180.0000000
+min. Y      : -90.0000000
+max. Y      : 90.0000000
+pos'n error : unknown
+resolution  : 0.083333333
+min. value  : 0
+max. value  : 12
+display min : 0
+display max : 12
+value units : unspecified
+value error : unknown
+flag value  : none
+flag def'n  : none
+legend cats : 12
+code      1 : Warm Temperate Moist
+code      2 : Warm Temperate Dry
+code      3 : Cool Temperate Moist
+code      4 : Cool Temperate Dry
+code      5 : Polar Moist
+code      6 : Polar Dry
+code      7 : Boreal Moist
+code      8 : Boreal Dry
+code      9 : Tropical Montane
+code     10 : Tropical Wet
+code     11 : Tropical Moist
+code     12 : Tropical Dry
+lineage     : This file was created by the OVERLAY module with the command line:
+lineage     : 3*Z:\TEMP\TMP_1.rst*Z:\TEMP\TMP_MSQ.rst*Z:\TEMP\CLIM_ZONE_TMEAN.rst
