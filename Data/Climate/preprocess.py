@@ -23,4 +23,4 @@ list_of_lines[25] = date_string
 a_file = open("preprocess.py", "w")
 a_file.writelines(list_of_lines)
 a_file.close()
-# 2022-06-06 08-47-39.499369#gdalwarp -s_srs EPSG:4326 -t_srs EPSG:4326 -dstnodata 255.0 -tr 0.05 0.05 -r near -te -180.0 -90.0 180.0 90.0 -te_srs EPSG:4326 -of GTiff "CLIMATE_ZONE.rst" "IPCC_ClimateZoneMap.tif"
+# 2022-06-06 08-56-22.150477
