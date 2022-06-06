@@ -3,3 +3,4 @@
 ['remote "myremote"']
     url = gdrive://1285BhLCifTNzuPrWocRjXMXo--YnGMXm
     gdrive_use_service_account = true
+    gdrive_service_account_json_file_path = .dvc/client_secret_458204578813-edsp6h84pvn6cuds1n1oihul7p85b3f8.apps.googleusercontent.com.json
