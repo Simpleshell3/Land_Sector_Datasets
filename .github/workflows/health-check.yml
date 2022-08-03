@@ -27,4 +27,5 @@ jobs:
         run: |
           sudo apt install libgdal-dev
           sudo apt-get install gdal-bin
+          pip install --global-option=build_ext --global-option="-I/usr/include/gdal" GDAL==`gdal-config --version`
           dvc repro
