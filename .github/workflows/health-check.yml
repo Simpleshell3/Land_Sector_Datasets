@@ -25,5 +25,6 @@ jobs:
             unzip HWSD_RASTER.zip          
       - name: Run pipeline
         run: |
+          sudo apt install libgdal-dev
           sudo apt-get install gdal-bin
           dvc repro
