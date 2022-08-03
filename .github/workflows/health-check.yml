@@ -13,7 +13,9 @@ jobs:
         with:
           python-version: '3.7'
           cache: 'pip'
-      # - uses: iterative/setup-dvc@v1
+      - uses: iterative/setup-dvc@v2
+        with:
+           version: '2.10.2'
       # - uses: iterative/setup-cml@v1
       - name: Run Script
         run: |
@@ -25,7 +27,6 @@ jobs:
       - name: Run pipeline
         run: |
           sudo add-apt-repository ppa:ubuntugis/ppa && sudo apt-get update
-          sudo apt -qq -y install dvc=2.10.2 -V --allow-downgrades
           sudo apt-get install gdal-bin
           sudo apt-get install libgdal-dev
           export CPLUS_INCLUDE_PATH=/usr/include/gdal
