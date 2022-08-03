@@ -13,7 +13,7 @@ jobs:
         with:
           python-version: '3.7'
           cache: 'pip'
-      - uses: iterative/setup-dvc@v2
+      - uses: iterative/setup-dvc@v1
         with:
            version: '2.10.2'
       # - uses: iterative/setup-cml@v1
