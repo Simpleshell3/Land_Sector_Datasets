@@ -1,5 +1,5 @@
 import os
-import /usr/include/gdal
+import gdal
 import sys
 import logging
 
