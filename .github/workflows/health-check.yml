@@ -19,6 +19,7 @@ jobs:
             pip install wget
             wget http://webarchive.iiasa.ac.at/Research/LUC/External-World-soil-database/HWSD_Data/HWSD_RASTER.zip
             unzip HWSD_RASTER.zip
+            cd Data/Soil/HWSD_RASTER/
       - name: Run pipeline
         run: |
           sudo add-apt-repository ppa:ubuntugis/ppa && sudo apt-get update
