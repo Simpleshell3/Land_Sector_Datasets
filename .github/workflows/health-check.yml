@@ -25,7 +25,5 @@ jobs:
             unzip HWSD_RASTER.zip          
       - name: Run pipeline
         run: |
-          sudo apt-add-repository ppa:ubuntugis/ubuntugis-unstable
-          sudo apt-get update
-          sudo apt-get install python-gdal
+          sudo apt-get install gdal-bin
           dvc repro
