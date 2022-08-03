@@ -14,7 +14,11 @@ jobs:
           python-version: '3.7'
       - uses: iterative/setup-dvc@v1
       # - uses: iterative/setup-cml@v1
-
+      - name: Run Script
+        run: |
+            pip install wget
+            wget http://webarchive.iiasa.ac.at/Research/LUC/External-World-soil-database/HWSD_Data/HWSD_RASTER.zip
+            unzip HWSD_RASTER.zip
       - name: Run pipeline
         run: |
           sudo add-apt-repository ppa:ubuntugis/ppa && sudo apt-get update
